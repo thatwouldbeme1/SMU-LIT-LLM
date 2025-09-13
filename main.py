@@ -4,7 +4,7 @@ import re
 
 # --- Configuration ---
 # Use the same API key and model names as in ingest.py
-GOOGLE_API_KEY = "AIzaSyCpDOXBlBDuXOJDbKWqCD-ou1ia5qeVj3g"
+GOOGLE_API_KEY = "API_KEY"
 COLLECTION_NAME = "jus_mundi"
 EMBEDDING_MODEL = "models/text-embedding-004"
 GENERATION_MODEL = "gemini-1.5-flash-latest" # A powerful and fast model for generation
@@ -91,3 +91,4 @@ def get_strategic_analysis(query, tone, api_key):
     # The new prompt format doesn't have separate "follow-up questions"
     # The entire output is now considered the "analysis"
     return response.text, []
+
