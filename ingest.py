@@ -7,7 +7,7 @@ import time
 
 # --- Configuration ---
 # IMPORTANT: Go to https://aistudio.google.com/app/apikey to get your API key
-GOOGLE_API_KEY = "AIzaSyCpDOXBlBDuXOJDbKWqCD-ou1ia5qeVj3g"
+GOOGLE_API_KEY = "API_KEY"
 DATA_DIRECTORY = "data"  # Create this folder and put all 580 JSON files inside it
 COLLECTION_NAME = "jus_mundi"
 EMBEDDING_MODEL = "models/text-embedding-004"
@@ -147,4 +147,5 @@ def main():
     print("You are now ready to build the core RAG logic.")
 
 if __name__ == "__main__":
+
     main()
